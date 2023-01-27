@@ -165,6 +165,7 @@ License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
             <SpinBoxFloatRow
                 bind:value={$config.lapseMultiplier}
                 defaultValue={defaults.lapseMultiplier}
+                min={0.01}
                 max={1}
             >
                 <SettingTitle
